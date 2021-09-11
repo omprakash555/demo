@@ -1,0 +1,33 @@
+body {
+    font-size: 15pt;
+    background-color: blue;
+}
+.menu{
+  background-color: black;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none
+  height: 36px;
+  line-height:36px;
+  background-color: black;
+  font-size:10px;
+}
+li{
+  float: left;
+  border: right 1px solid blue;
+}
+a{
+  display:block; 
+  padding: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  background-color: blue;
+}
+
+.active{
+  background-color: blue;
+}
